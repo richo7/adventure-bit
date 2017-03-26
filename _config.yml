@@ -1,1 +1,18 @@
+# Jekyll Config
+safe: true
 theme: jekyll-theme-merlot
+exclude: [LICENSE, Vagrantfile, README.md, CNAME]
+timezone: Europe/London
+host: 0.0.0.0
+permalink: pretty
+
+# Site Settings:
+github:
+    repository_name: adventure-bit
+    owner_name: CodeGuild-co
+    repository_url: https://github.com/CodeGuild-co/adventure-bit
+
+# Theme Config
+title: "adventure:bit"
+description: Adventure games you can play with your micro:bit (IRL)
+show_downloads: true
