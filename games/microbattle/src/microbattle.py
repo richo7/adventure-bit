@@ -82,7 +82,7 @@ def move(typeOfMove, numberOfMoves, lives):
         sleep(10)
         radio.send(typeOfMove)
         incoming = radio.receive()
-    display.scroll(typeOfMove + " v " + incoming)
+    display.scroll(typeOfMove[0] + " v " + incoming[0])
     if correct is True:
         if incoming == "Attack" and typeOfMove == "Block":
             if roundSuccess is False:
