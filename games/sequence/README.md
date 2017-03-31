@@ -1,3 +1,6 @@
+---
+laout: standard
+---
 # How the Game Works
 The program imports the modules of random and radio (Bluetooth in micro:bit). 
 The program picks a random letter from 0-1 which selects whether it is selected as A or B. 
