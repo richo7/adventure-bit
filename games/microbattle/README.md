@@ -30,8 +30,10 @@ The code is split into two functions - one which generates random sequences of a
 There is also a main loop which polls the microbit for user input, as well as checking whether the opponent's microbit is broadcasting a lose signal, in which case it displays the message 'WINNER' and halts.
 
 If the button 'a' is pressed, the function 'move()' is called, and the values "attack", 5 and the variable lives are passed to it. This reduces the use of global variables, as well as allowing for reduction in code size. If the button 'b' is pressed, the function move() is also called, but this time it is passed a value of 4. This means that the sequence length for an attack is 5 letters long, but the sequence length for a block is only 4 letters long, to encourage the player to block. 
+
 Inside the function 'move()', the microbit is also polled for input, after the randomly generated list is displayed. At the same time, it checks to see whether the opponent's microbit has broadcast a signal, which would indicate that it has finished its move, and, if so, breaks out of the sequence entering and goes directly to damage calculation, to reduce the length of the game.
 If a player enters their sequence before the opponent, their microbit will broadcast a signal via bluetooth and wait to receive one, then enter damage calculation.
+
 Lives are deducted as described above and, if a player reaches 0 lives, the game ends (with messages displayed as earlier).
 
 ## Improvements
