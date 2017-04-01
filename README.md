@@ -1,5 +1,7 @@
 # adventure:bit
 
+[![Join the chat at https://gitter.im/CodeGuild-co/adventure-bit](https://badges.gitter.im/CodeGuild-co/adventure-bit.svg)](https://gitter.im/CodeGuild-co/adventure-bit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Members of the CodeGuild have been hard at work, creating new, complex, and exciting packages for the BBC micro:bit. This repo contains their work.
 
 You'll find the contents of the [website](http://pxt-packages.codeguild.co) as well as the source code for each of the packages. There's also a list of possible improvements to be made, so if you'd like to contribute you can get cracking straight away!
